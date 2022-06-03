@@ -1,0 +1,11 @@
+.head{
+  text-align: center;
+}
+.img {
+  background: linear-gradient(to right , rgb(94, 167, 155), rgb(78, 204, 226));
+  background-size: cover;
+  background-position: center;
+  
+}
+ 
+

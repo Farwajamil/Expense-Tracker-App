@@ -1,0 +1,68 @@
+.main {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.btradio1 {
+  margin-left: 28%;
+  color: green;
+}
+.btn1{
+  border-radius: 25px;
+
+}
+.btradio2 {
+  margin-left: 28%;
+  color: red;
+}
+.main input:focus {
+  outline: none;
+  background: #d0ede9;
+}
+.list{
+  list-style-type: none;
+}
+
+.expense-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+ max-width: 35rem;
+ margin-left: 23%;
+  
+}
+.income-border{
+  color: green;
+  border-left: green;
+  font-weight: 600;
+}
+.expense-border{
+  color: red;
+  border-left: red;
+  font-weight: 600;
+}
+
+.Button {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 60px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  border: 1px solid #25787a;
+  background: #25787a;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.is;
+}
