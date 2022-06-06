@@ -4,7 +4,7 @@ import axios from "axios";
 function Logout() {
   const [name, setitem] = useState("");
   const [amount, setamount] = useState("");
-  const [amountType, settype] = useState("");
+  const [amountType, settype] = useState("earning");
   const [val, setval] = useState();
   const [transid, settrans] = useState();
   const [fil, setfil] = useState("");
