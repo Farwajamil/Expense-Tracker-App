@@ -51,12 +51,7 @@ function Logout() {
     };
     if (name !== "" && amount > 0) {
       console.log(obj);
-      setitem("");
-      setamount("");
-    } else {
-      alert("plz enter positive amount");
-    }
-    let user = JSON.parse(localStorage.getItem("user-info"));
+         let user = JSON.parse(localStorage.getItem("user-info"));
     console.log(user);
     const token = user[0].token;
     axios
@@ -85,6 +80,11 @@ function Logout() {
         console.log("UnAuthorized");
         console.log(err);
       });
+      setitem("");
+      setamount("");
+    } else {
+      alert("plz enter positive amount");
+    }
   }
   function handleadd(trans) {
     setisupdate(true);
